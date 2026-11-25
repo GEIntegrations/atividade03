@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETB | Escola técnica de Brasília</title>
+  <link rel="stylesheet" href="dados.css">
+  <style>
+    /* CSS interno*/
+    .school-table th {
+      background-color: #173b36;
+      color: #ffffff;
+    }
+
+    .school-table td {
+      background-color: #ffffff;
+    }
+
+    .school-table tr:nth-child(even) td {
+      background-color: #f0f5f2;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header"><img src="logo.png" alt="" width="90px"></a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="conteudo.html">Nossa escola</a>
+      <a class="active" href="dados.html">Informações</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <h1>Turnos da aula</h1>
+    </section>
+
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table class="school-table">
+          <thead>
+            <tr>
+              <th scope="col">Turno</th>
+              <th scope="col">Entrada</th>
+              <th scope="col">Saída</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matutino</td>
+              <td>08h00</td>
+              <td>11h00</td>
+            </tr>
+            <tr>
+              <td>Vespertino</td>
+              <td>14h00</td>
+              <td>17h30</td>
+            </tr>
+            <tr>
+              <td>Noturno</td>
+              <td>19h30</td>
+              <td>22h30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Escola Técnica de Brasília</p>
+  </footer>
+</body>
+
+</html>
